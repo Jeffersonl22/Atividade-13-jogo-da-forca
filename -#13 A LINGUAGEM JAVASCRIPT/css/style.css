@@ -1,0 +1,107 @@
+
+body{
+    background: fixed;
+    background-size: cover;
+}
+
+#cor{
+    position: relative;
+    background-color: rgba(0, 79, 250, 0.192);
+    border: 1px solid black;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+.char{
+    position: relative;
+    font-size: 45px;
+    text-shadow: 1px 1px black ;
+    font-family: 'cursive', 'Arvo', serif;
+    top: 15%;
+    left: 5%;
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after{
+    clear: both;
+}
+
+
+#resultado{
+    position: relative;
+    top:50px;
+}
+
+#palavrachave{
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    height: 80px;
+    top:50px;
+}
+
+
+.tecla{
+    font-family: 'cursive', 'Arvo', serif;
+    font-size: 32px;
+    width: 10%;
+    height: 60px;
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+
+#hud { 
+    position: relative;
+    background-size: cover;
+    background-color: #777;
+    height: 280px;
+}
+
+#titulo{
+    text-align: center;
+    font-family: 'cursive', 'Arvo', serif;
+    height: 30px;
+}
+
+
+#teclado {
+    font-family:  'cursive', 'Arvo', serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #333;
+    width: 80%;
+}
+
+#lose{
+    font-family: 'cursive', 'Arvo', serif;
+    text-align: center;
+    font-size: 32px;
+    color: red;
+}
+
+#win{
+    font-family: 'cursive', 'Arvo', serif;
+    text-align: center;
+    font-size: 32px;
+    color: green;
+}
+
+#placar{
+    position: relative;
+    width: max-content;
+    font-family: 'cursive', 'Arvo', serif;
+    font-size: 24px;
+    top:20px;
+    left: 15px;
+}
+
+#falhas{
+    color: red;
+}
